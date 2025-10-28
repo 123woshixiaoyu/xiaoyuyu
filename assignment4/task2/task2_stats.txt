@@ -1,0 +1,2 @@
+chamber:   mu=0.3542, sigma=0.0992
+background: mu=0.1065, sigma=0.0936

@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.DS_Store
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Data / outputs
+data/
+WB_sRGB/
+datasets1/
+outputs/
+results/
+
+# Compressed files
+*.zip
+*.tar
+*.gz
+
+# System files
+Thumbs.db

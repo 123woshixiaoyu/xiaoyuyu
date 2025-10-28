@@ -1,0 +1,26 @@
+name: image-analysis
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-image
+  - scikit-learn
+  - opencv
+  - pillow
+  - tqdm
+  - pytorch=2.8.0
+  - torchvision=0.23.0
+  - torchaudio=2.8.0
+  - pytorch-cuda=12.9
+  - pip:
+      - albumentations
+      - segmentation-models-pytorch
+      - timm

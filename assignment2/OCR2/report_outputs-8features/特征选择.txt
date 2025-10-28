@@ -1,0 +1,14 @@
+ feat_names = [
+        "f1_area_ratio",
+        "f2_aspect_ratio",
+        "f3_cx_norm",
+        "f4_cy_norm",
+        "f5_row_peak",
+        "f6_col_peak",
+        "f7_second_moment",
+        "f8_holes",
+        "f9_euler",
+        "f10_compactness",
+        "f11_row_entropy",
+        "f12_col_entropy",
+    ] 
