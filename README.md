@@ -4,7 +4,8 @@ This repository contains the course assignments for the **Image Analysis** cours
 
 ## ⚙️ Environment Setup
 
-You can choose **either pip or conda**, depending on your setup.
+The project was developed and tested with **Python 3.9** and **Anaconda**.  
+You can recreate the same environment using either Conda or pip.
 
 ### Option A — Conda
 
