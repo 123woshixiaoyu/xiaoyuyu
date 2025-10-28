@@ -21,8 +21,12 @@ For NVIDIA GPU users.
 Uses the PyTorch CUDA build specified in requirements.txt.
 
 ```
+# Create a virtual environment:
 python -m venv .venv
-source .venv/bin/activate
+
+# Activate it:
+#   Windows: .venv\Scripts\activate
+#   macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
