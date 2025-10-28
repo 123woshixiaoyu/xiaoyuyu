@@ -12,6 +12,7 @@ You can choose **either pip or conda**, depending on your setup.
 
 ```conda env create -f environment.yml
 conda activate image-analysis
+```
 
 ### Option B — pip (GPU version, CUDA 12.9)
 
@@ -21,6 +22,7 @@ Uses the PyTorch CUDA build specified in requirements.txt.
 ```python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
 
 ## 🧩 Assignment 1: 4.OCR
 
@@ -41,6 +43,7 @@ Example:
 
 ```cd assignment4/task1
 git clone https://github.com/mahmoudnafifi/WB_sRGB.git
+```
 
 
 Make sure the WB_sRGB folder is placed directly inside task1 so that the code can correctly import its modules.
