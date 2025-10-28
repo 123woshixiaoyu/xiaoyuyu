@@ -10,7 +10,8 @@ You can choose **either pip or conda**, depending on your setup.
 
 **Recommended** if you use Anaconda.
 
-```conda env create -f environment.yml
+```
+conda env create -f environment.yml
 conda activate image-analysis
 ```
 
@@ -19,7 +20,8 @@ conda activate image-analysis
 For NVIDIA GPU users.
 Uses the PyTorch CUDA build specified in requirements.txt.
 
-```python -m venv .venv
+```
+python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -41,7 +43,8 @@ In assignment4, for task1, you must first clone the WB_sRGB project into the tas
 
 Example:
 
-```cd assignment4/task1
+```
+cd assignment4/task1
 git clone https://github.com/mahmoudnafifi/WB_sRGB.git
 ```
 
