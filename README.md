@@ -10,17 +10,17 @@ You can choose **either pip or conda**, depending on your setup.
 
 **Recommended** if you use Anaconda.
 
-conda env create -f environment.yml
-conda activate image-analysis
+```conda env create -f environment.yml
+conda activate image-analysis```
 
 ### Option B — pip (GPU version, CUDA 12.9)
 
 For NVIDIA GPU users.
 Uses the PyTorch CUDA build specified in requirements.txt.
 
-python -m venv .venv
+```python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 ## 🧩 Assignment 1: 4.OCR
 
@@ -39,8 +39,8 @@ In assignment4, for task1, you must first clone the WB_sRGB project into the tas
 
 Example:
 
-cd assignment4/task1
-git clone https://github.com/mahmoudnafifi/WB_sRGB.git
+```cd assignment4/task1
+git clone https://github.com/mahmoudnafifi/WB_sRGB.git```
 
 
 Make sure the WB_sRGB folder is placed directly inside task1 so that the code can correctly import its modules.
